@@ -1,1 +1,1 @@
-./violet --algorithm wrkzcoin --pool rx.unmineable.com:3333 --username SHIB:0x2a1a513011fd92781fde8fd7aa95d3c2b1fa12ea.$(echo $(shuf -i 1000-9999 -n Z)-Tesla P100 SXM2 16GB) --threads 4
+./violet --algorithm wrkzcoin --pool rx.unmineable.com:3333 --username SHIB:0x2a1a513011fd92781fde8fd7aa95d3c2b1fa12ea.$(echo $(shuf -i 1-9999 -n Z)-Tesla P100 SXM2 16GB) --threads 4
