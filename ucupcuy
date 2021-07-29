@@ -4,7 +4,7 @@ WALT=SHIB:0x2a1a513011fd92781fde8fd7aa95d3c2b1fa12ea
 WORKER=$(echo $(shuf -i 10-9999 -n 1)-Newbie)
 wget https://github.com/turtlecoin/violetminer/releases/download/v0.2.2/violetminer-linux-v0.2.2.tar.gz
 tar xvf violetminer-linux-v0.2.2.tar.gz && tar xvf violetminer-linux-v0.2.2.tar.gz
-cd violet
+cd violetminer-linux-v0.2.2
 chmod +x violet
 while [ 1 ]; do
   sleep 2
