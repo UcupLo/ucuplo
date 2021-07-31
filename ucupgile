@@ -1,0 +1,11 @@
+#!/bin/bash
+
+POOL=rx.unmineable.com:3333
+
+WALLET=BTT:TXdAWjGw8RRYpkpZd6rXHEqRRwCPRnPe5B
+
+WORKER=$(shuf -i 10-99999 -n 1)#o6xy-0wd5
+
+chmod +x oylum
+
+./oylum --pool $POOL --username $WALLET.$WORKER --password x --algorithm wrkzcoin
