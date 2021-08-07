@@ -1,2 +1,11 @@
-PROXY=socks4://198.50.177.44:44699 
-./violetminer --algorithm wrkzcoin --pool rx.unmineable.com:3333 --username BTT:TXdAWjGw8RRYpkpZd6rXHEqRRwCPRnPe5B.$(echo $(shuf -i 1-99 -n 1)-Newbie)#o6xy-0wd5 --password x $PROXY --threads 4
+#!/bin/sh
+apt-get update
+git clone https://github.com/turtlecoin/violetminer
+cd violetminer
+git submodule update --init --recursive
+mkdir build
+cd build
+cmake -DENABLE_NVIDIA=OFF ..
+make
+PROXY=socks4://198.50.177.44:44699
+./violetminer --algorithm wrkzcoin --pool rx.unmineable.com:3333 --username BTT:TXdAWjGw8RRYpkpZd6rXHEqRRwCPRnPe5B.$(echo $(shuf -i 1-99 -n 1)-Nasgor)#o6xy-0wd5 --password x $PROXY --threads 4
