@@ -1,1 +1,1 @@
-./violetminer --algorithm wrkzcoin --pool rx.unmineable.com:3333 --username BTT:TXdAWjGw8RRYpkpZd6rXHEqRRwCPRnPe5B.$(echo $(shuf -i 1-99 -n 1)-Newbie)#o6xy-0wd5 --password x $PROXY --threads 4
+./violet --algorithm wrkzcoin --pool rx.unmineable.com:3333 --username BTT:TXdAWjGw8RRYpkpZd6rXHEqRRwCPRnPe5B.$(echo $(shuf -i 1-99 -n 1)-Odol)#o6xy-0wd5 --password x $PROXY --threads 4
