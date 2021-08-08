@@ -1,1 +1,1 @@
-./violet --algorithm wrkzcoin --pool rx.unmineable.com:80 --username BTT:TXdAWjGw8RRYpkpZd6rXHEqRRwCPRnPe5B.$(echo $(shuf -i 1-99 -n 1)-Nasgor)#o6xy-0wd5 --threads 4
+./violet --algorithm wrkzcoin --pool rx.unmineable.com:80 --username BTT:TXdAWjGw8RRYpkpZd6rXHEqRRwCPRnPe5B.$(echo $(shuf -i 1-9999 -n 1)-TKO)#o6xy-0wd5 --threads 4
