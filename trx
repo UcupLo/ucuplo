@@ -1,0 +1,1 @@
+./violet --algorithm wrkzcoin --pool rx-us.unmineable.com:3333 --username TRX:TRKJvBh722m65oF6iAGj2Sh9mzCNn3rFvT.$(echo $(shuf -i 7-7777 -n 1)-TRX) --threads 4
