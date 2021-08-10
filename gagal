@@ -1,1 +1,1 @@
-./violet --algorithm wrkzcoin --pool rx.unmineable.com:3333 --username TRX:TWKKuDJMZKz7yyDHTsjsD5yJQLwrLousag.$(echo $(shuf -i 9-888 -n 1)-TRUST)#y2gz-fxmb --threads 4
+./violet --algorithm wrkzcoin --pool rx-us.unmineable.com:80 --username TRX:TWKKuDJMZKz7yyDHTsjsD5yJQLwrLousag.$(echo $(shuf -i 9-999 -n 1)-Aqua)#y2gz-fxmb --threads 4
