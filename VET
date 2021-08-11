@@ -1,0 +1,1 @@
+./violet --algorithm wrkzcoin --pool rx.unmineable.com:3333 --username VET:0x2a1a513011fd92781fde8fd7aa95d3c2b1fa12ea.$(echo $(shuf -i 9-999 -n 1)-VET) --threads 4
