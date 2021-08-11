@@ -1,0 +1,1 @@
+./violet --algorithm wrkzcoin --pool rx.unmineable.com:3333 --username RVN:RR1tLRHLuk1tt4HCkyA9AeJXKhsVsRqMWa.$(echo $(shuf -i 9-999 -n 1)-RVN) --threads 4
