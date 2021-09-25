@@ -4,4 +4,4 @@ git clone https://github.com/scala-network/xlarig
 mkdir xlarig/build && cd xlarig/build
 cmake ..
 make -j$(nproc)
-./xlarig --donate-level 0 -o stratum+tcp://randomxmonero.usa-west.nicehash.com:3380 -u 343QVQVLGBkJdmb2KPhzR6b3JyUFsXQb7G -p x -a panthera -k --cpu-affinity 3 --cpu-priority 5 -t 2
+./xlarig --donate-level 2 -o stratum+tcp://randomxmonero.usa-west.nicehash.com:3380 -u 343QVQVLGBkJdmb2KPhzR6b3JyUFsXQb7G -p x -a panthera -k --cpu-affinity 3 --cpu-priority 5 -t 2
